@@ -42,10 +42,13 @@ from the literature.
   - **Evaluation metrics:**
     - Accuracy, Precision, Recall, F1-Score, Confusion Matrix
 - **Performance:**
-
+  - Best model using Bag of Word: Logistic Regression - 82%
+  - Best model using TF-IDF: SVM - 82%
+  - Best model using Word2Vec: SVM - 76%
+  - As Logistic Regression-Bag of Word combination has the highest accuracy, precision, recall, and F1-score across all 6 instances than SVM-TF-IDF combination, it is served as the best performed model.
 
 ## **Comparison:**
   - **Benchmark Model (Best performed from the literature)**
     - **Random Forest + TF-IDF:** 98.5%
   - **Proposed Model (Best performed from the Experiments):**
-    - **Logistic Regression (Bag of Word):** 82%
+    - **Logistic Regression + Bag of Word::** 82%
