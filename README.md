@@ -42,6 +42,8 @@ from the literature.
   - **Evaluation metrics:**
     - Accuracy, Precision, Recall, F1-Score, Confusion Matrix
 - **Performance:**
-  - **Benchmark Model (Random Forest with TF-IDF):** 98.5%
-  - **Best Performance from the Experiment:**
+- **Comparison:**
+  - **Benchmark Model (Best performed from the literature)**
+    - **Random Forest + TF-IDF:** 98.5%
+  - **Proposed Model (Best performed from the Experiments):**
     - **Logistic Regression (Bag of Word):** 82%
