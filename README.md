@@ -43,4 +43,5 @@ from the literature.
     - Accuracy, Precision, Recall, F1-Score, Confusion Matrix
 - **Performance:**
   - **Benchmark Model (Random Forest with TF-IDF):** 98.5%
-  - **Logistic Regression (Bag of Word):** 82%
+  - **Best Performance from the Experiment:**
+    - **Logistic Regression (Bag of Word):** 82%
