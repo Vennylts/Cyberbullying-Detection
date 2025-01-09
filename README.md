@@ -19,7 +19,7 @@ from the literature.
   - 47692 tweets
   - Collected using Twitter API and manually classified into 6 instances by the author.
 - **Methodology:**
-  - **Experimental Design:** 3 experiments are conducted using the same sets of preprocessing methods and text representation, but with different classification algorithms.
+  - **Experimental Design:** Three experiments are conducted using the same sets of preprocessing methods and text representation, but with different classification algorithms.
   - **Pre-processing methods:**
     - Data cleaning
       - Label Encoding
@@ -31,6 +31,16 @@ from the literature.
     - Tokenization
     - Stemming
     - Lemmatization
-  - **Evaluation metrics:** 
+  - **Text Representation:**
+    - Bag-of-Words
+    - Word Embedding (Word2Vec)
+    - TF-IDF
+  - **Models:** 
+    - **Experiment 1:** Support Vector Machine (SVM)
+    - **Experiment 2:** Logistic Regression
+    - **Experiment 3:** Random Forest Classifier
+  - **Evaluation metrics:**
+    - Accuracy, Precision, Recall, F1-Score, Confusion Matrix
 - **Performance:**
-  - 
+  - **Benchmark Model (Random Forest with TF-IDF):** 98.5%
+  - **Logistic Regression (Bag of Word):** 82%
