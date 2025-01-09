@@ -52,3 +52,5 @@ from the literature.
     - **Random Forest + TF-IDF:** 98.5%
   - **Proposed Model (Best performed from the Experiments):**
     - **Logistic Regression + Bag of Word::** 82%
+    - Advantage over Benchmark model:
+      - Its ability to yield probabilistic outputs that enhances the interpretability of the model, furnishes users with nuanced insights into the predictions.
