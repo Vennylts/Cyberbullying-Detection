@@ -2,8 +2,7 @@
 This project addresses the challenges in predicting cyberbullying instances in digital text content using machine learning algorithm, methodology and Natural Language Processing (NLP).
 
 ## Project Aim
-The proposed solution aims to augment current detection methods by providing a more nuanced and
-context-aware understanding of potential cyberbullying incidents.
+The proposed solution aims to augment current detection methods (e.g., raditional rule-based systems & human judgment limitation) by providing a more nuanced and context-aware understanding of potential cyberbullying incidents.
 
 ## Project Objectives
 1. To conduct a review of existing literature on cyberbullying detection to understand the range of methodologies currently in use, the strengths and limitations of these methods, and the gaps in the existing research.
@@ -14,4 +13,12 @@ from the literature.
 
 ## Key Features
 - **Dataset:**
-  - Source: https://www.kaggle.com/code/andrewmvd/cyberbullying-classification-getting-started/notebook
+  - **Source:** https://www.kaggle.com/code/andrewmvd/cyberbullying-classification-getting-started/notebook
+  - "Cyberbullying Classification" dataset on Kaggle.
+  - Records online bullying and non-bullying remarks on Twitter.
+  - 47692 tweets
+  - Collected using Twitter API and manually classified into 6 instances by the author.
+- **Methodology:**
+  - **Evaluation metrics:** 
+- **Performance:**
+  - 
