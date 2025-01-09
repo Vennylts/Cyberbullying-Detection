@@ -19,6 +19,18 @@ from the literature.
   - 47692 tweets
   - Collected using Twitter API and manually classified into 6 instances by the author.
 - **Methodology:**
+  - **Experimental Design:** 3 experiments are conducted using the same sets of preprocessing methods and text representation, but with different classification algorithms.
+  - **Pre-processing methods:**
+    - Data cleaning
+      - Label Encoding
+      - Lowercasing
+      - Stopword Removal
+      - Punctuation Removal
+      - URL Removal
+      - Numeric Removal
+    - Tokenization
+    - Stemming
+    - Lemmatization
   - **Evaluation metrics:** 
 - **Performance:**
   - 
